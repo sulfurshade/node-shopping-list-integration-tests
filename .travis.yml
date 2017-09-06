@@ -1,0 +1,9 @@
+language: node_js
+node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Lb4Z4WZsGxIMt+lOHNsLvMDRVnOFdM/tRza+7cxfVUvATLf9NguxXBW8RlzZWA99eClzz/fuJZ7lC4xW1aJJEcw/Sy4JlZyx1ovbpjPpDXeG7F/rV4ufH51JtWAaOnMbJf0ZmPWlsNbwwydJ8/NwOwd62Tmr8SpzGeLOwoC/ZMQfDxKZMN+j4BktErJcOWmHgTLpPF3oI1uz5kWBZtkJYj1Bi7nKjKUZ2I22LXPk+BQ8BdDmBkJlCOBY7Aq1d/0W4mbxep31jjZE0tVyBZU2n8S84ns8fcs71Sl5uNEVlFY8M2YNiAlvld20rxwoNFQYG6oPFNCMmB+XFFohB2Kj7YS4kHRf9os0q3R2VhFkWqEdCrKq/1PCubs92YxyQfl8DRcvXerHziLMkD8r5ThjEyvb9im/MHxiYKwnCOMlBGwszVLxmOuTbM8sSgRF50YdTm6+8X3eauhHZxDhz6a/ahdvIm1qc0dCBe1RPUieyqQEBLOv5Hii8TplMUfkfVRScMwda5TUS3DZwb7DTM+ntqnUCAKyRCQtMUO3wfdmIoAngK63j1NSwuv3OWyEl/fXLn3xOxzt/d2DYy6WndbvH07W9yOSbRYSy1NWUeB6eLnGNhbmE4QzI8Pl5S0xdragXkQLDOimK8IT+iTYEg5r5fCVeBAkfPTwpqWVjJIie8c=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: sulfurshade/node-shopping-list-integration-tests
